@@ -36,7 +36,7 @@ This project validates the approach on ModelNet10 (a standard 3D shape benchmark
 
 ```bash
 # Download ModelNet10
-wget http://vision.princeton.edu/projects/2014/3DShapeNets/ModelNet10.zip
+wget http://3dvision.princeton.edu/projects/2014/3DShapeNets/ModelNet10.zip -d '/content/project/ModelNet10'
 unzip ModelNet10.zip
 
 # Install dependencies
