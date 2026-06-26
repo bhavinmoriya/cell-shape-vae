@@ -79,7 +79,7 @@ def fig2_latent_traversal(model, zs, device, dim=0, n_steps=7, save='fig2_traver
 
     for i, v in enumerate(values):
         z = z_mean.clone()
-        z[dim] = v
+        z[dim] = float(v)
         with torch.no_grad():
             pts = model.decode(z.unsqueeze(0).to(device))[0].cpu().numpy()
 
