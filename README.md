@@ -84,5 +84,11 @@ Loss = Chamfer(recon, input) + β · KL(q(z|x) ‖ p(z))
 
 ---
 
+## Download the model
+
+- [shape_vae.pt](https://github.com/bhavinmoriya/cell-shape-vae)
+
+---
+
 ## Author
 Bhavin Moriya, Ph.D. — [github.com/bhavinmoriya](https://github.com/bhavinmoriya)
